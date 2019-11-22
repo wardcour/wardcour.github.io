@@ -79,7 +79,9 @@ h1,h2,h3,h4,h5 {
 	padding: 6px 12px;
 	border: 1px solid #EEE;
 	background: url(IMG_1257.jpg);
-	margin-bottom: 8px;
+	background-repeat: no-repeat;
+  	background-size: auto;	
+  	margin-bottom: 8px;
 	height: 300px;
 }
 
@@ -233,9 +235,11 @@ h1,h2,h3,h4,h5 {
 
 /* content */
 .content {
-	float: right;
-	width: 664px;
+	margin: 0 auto;
+	padding-bottom: 6px;
+	width: 920px;
 }
+
 
 .content .item {
 	padding: 6px 12px;
@@ -283,10 +287,15 @@ h1,h2,h3,h4,h5 {
 
 .content li {
 	color: #000000;
-	list-style: url(li.gif);
 	margin-left: 18px;
 	font-size: 1em;
 	padding-bottom: 1em;
+}
+
+.content li2 {
+	color: #000000;
+	margin-left: 30px;
+	font-size: 1em;
 }
 
 /* search form */
